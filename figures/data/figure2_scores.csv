@@ -1,0 +1,15 @@
+section,assessment_id,specification_id,specification_label,metric,estimate,ci_low,ci_high
+score_robustness,2023_primary,Primary,Primary specification,IBS 0-365,-0.0035726064431721,-0.004094969439174,-0.0030354305813199
+score_robustness,full_2024_corroboration,Primary,Primary specification,Brier score at day 180,-0.0055628590064637,-0.0062115592133087,-0.004947267438214
+score_robustness,2023_primary,S1,S1 endpoint recoding,IBS 0-365,-0.0035575278254116,-0.0040764406376405,-0.0030288452037714
+score_robustness,full_2024_corroboration,S1,S1 endpoint recoding,Brier score at day 180,-0.0055562264371247,-0.006204456895927,-0.0049355193474657
+score_robustness,2023_primary,S2,S2 no observed S filing,IBS 0-365,-0.0033877935606376,-0.0039628840667207,-0.0028278961640305
+score_robustness,full_2024_corroboration,S2,S2 no observed S filing,Brier score at day 180,-0.0053572171024197,-0.005964104413358,-0.004694204774635
+score_robustness,2023_primary,S3,S3 omit 2020-2021 development,IBS 0-365,-0.0032647178117578,-0.0037717161008412,-0.0027482697586437
+score_robustness,full_2024_corroboration,S3,S3 omit 2020-2021 development,Brier score at day 180,-0.0049539836094463,-0.0055832337197246,-0.0043608769700585
+score_robustness,2023_primary,S4,S4 day-180 interaction,IBS 0-365,-0.0035572846426389,-0.004086090484247,-0.0030137820548998
+score_robustness,full_2024_corroboration,S4,S4 day-180 interaction,Brier score at day 180,-0.0055271901858242,-0.0062237883084505,-0.0048648115546607
+score_robustness,2023_primary,S5,S5 any approved PAA only,IBS 0-365,-0.0021067881251242,-0.0024585180142722,-0.0017259799204084
+score_robustness,full_2024_corroboration,S5,S5 any approved PAA only,Brier score at day 180,-0.0042315834286901,-0.0047617715551482,-0.0037259965204614
+score_robustness,2023_primary,S6,S6 development 2021-2022 only,IBS 0-365,-0.0026258611790398,-0.0031154542509559,-0.0021227483287989
+score_robustness,full_2024_corroboration,S6,S6 development 2021-2022 only,Brier score at day 180,-0.0029260650089688,-0.0035554704661998,-0.0023198923270971

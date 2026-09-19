@@ -1,0 +1,26 @@
+metric,estimate,percentile_2_5,percentile_97_5,finite_replicates,requested_replicates,CI_scope
+M0__IBS,0.16409493643752066,0.16227281625892304,0.16600942672361671,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__BS_365,0.24764778829950018,0.24699470688959421,0.24821545862633082,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__AUC_365,0.53690222916001018,0.52784245453864087,0.54733161700853739,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__mean_calibration_bias_365,-0.13176755507508212,-0.13958991734483459,-0.12305435217541198,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__offset_intercept_365,0.54499482496493223,0.50727711251178254,0.57931440780647137,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__joint_intercept_365,0.54851253835347225,0.50994623916221671,0.58443761477359191,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__slope_365,0.7998076714784621,0.59963755155762077,1.0310229709641492,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__IBS,0.15863430379980972,0.15665135945138003,0.16068347910107803,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__BS_365,0.23672149962770289,0.23557162839405357,0.23799711357903633,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__AUC_365,0.58438696758153708,0.57614607781430238,0.59343594594098659,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__mean_calibration_bias_365,-0.1086847964892204,-0.11671327594969115,-0.1004454134942712,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__offset_intercept_365,0.46288693261239044,0.42638845095685757,0.49921843110436059,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__joint_intercept_365,0.46963644730249038,0.43318596315049462,0.50836787649927528,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__slope_365,0.93097240223365563,0.84518983345122412,1.0118382279959681,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__IBS,-0.0054606326377109327,-0.0059957571557600082,-0.0048483301686413193,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__BS_365,-0.010926288671797291,-0.0118589986744887,-0.0097811383631753422,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__AUC_365,0.047484738421526895,0.040428905215605014,0.054049948594885586,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__mean_calibration_bias_365,0.023082758585861715,0.022042579811466508,0.024180622988505981,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__offset_intercept_365,-0.082107892352541789,-0.086815781890259111,-0.07730856772859683,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__joint_intercept_365,-0.078876091050981867,-0.086797618369037613,-0.069460621460110394,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__slope_365,0.13116473075519353,-0.065969373072350901,0.30766883552577923,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+IBS_relative_reduction_percent,3.3277276899949166,2.9366673946369044,3.6536824552594158,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M0__Uno_C_365,0.53464262168645105,0.52730654971179758,0.54339692396581907,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+M1__Uno_C_365,0.57322294733017898,0.56607016227302476,0.58015384482144705,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap
+Delta__Uno_C_365,0.038580325643728,0.032732526986008842,0.043923441748915923,500,500,Conditional on fixed fitted models; paired evaluation-BIN bootstrap

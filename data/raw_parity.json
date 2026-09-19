@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_mode": "unchanged raw revision-3408 source guard, ingest, cohort, audit and pre-model preparation",
+  "source_sha256": "f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418",
+  "source_rows": 956139,
+  "source_bytes": 827461297,
+  "reference_reconstruction_exact": true,
+  "prepared_cohort_invariants_passed": true,
+  "accepted_compact_sha256": "9d9b1fa8661f756e27aa294f2a1c78ae2da500f921f7effa59f5cd23a53e888f",
+  "raw_rebuild_compact_sha256": "9d9b1fa8661f756e27aa294f2a1c78ae2da500f921f7effa59f5cd23a53e888f",
+  "compressed_bytes_identical": true,
+  "accepted_canonical_csv_sha256": "e550c1055d1e3b609b922d8030cd209c1113bdb461005bb6d99c29ed26e9726c",
+  "raw_rebuild_canonical_csv_sha256": "e550c1055d1e3b609b922d8030cd209c1113bdb461005bb6d99c29ed26e9726c",
+  "canonical_bytes_identical": true,
+  "schema_sha256": "552beb33a6651b47b47862d4df975c0e70db7eb3c66e9ecd1cb65c62ea656785",
+  "compact_parity_receipt_sha256": "e01e449f3000df0b0caefb18ffe5eb34fa092d147771691e47bb7767a059e15a",
+  "raw_build_elapsed_seconds": 682.5487925999914,
+  "scope_note": "S1-S6 and model/bootstrap analysis were not invoked by this source-to-compact rebuild."
+}

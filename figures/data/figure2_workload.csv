@@ -1,0 +1,3 @@
+section,assessment_id,target_horizon,actual_allocation,flagged_roots_per_model,m0_persisters_per_100,m1_persisters_per_100,yield_difference,yield_ci_low,yield_ci_high
+workload,2023_primary,365 days,0.2036,6744,66.09,71.07,4.98,4.08,6.02
+workload,full_2024_corroboration,180 days,0.20309999999999997,6875,81.82,83.81,1.99,1.29,2.96

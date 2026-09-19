@@ -1,0 +1,281 @@
+{
+  "status": "PASS",
+  "rows": 198284,
+  "role_counts": {
+    "development": 131311,
+    "validation_2024": 33847,
+    "validation_2023": 33126
+  },
+  "paa_counts": {
+    "development": {
+      "0": 102265,
+      "1": 20634,
+      "2": 5784,
+      "3": 2628
+    },
+    "validation_2023": {
+      "0": 23634,
+      "1": 6423,
+      "2": 1997,
+      "3": 1072
+    },
+    "validation_2024": {
+      "0": 24777,
+      "1": 6018,
+      "2": 1850,
+      "3": 1202
+    }
+  },
+  "mature_2024": 24431,
+  "development_BIN_overlap": {
+    "validation_2023": 8682,
+    "validation_2024": 7663
+  },
+  "approval_to_F_min_max": [
+    -352,
+    2293
+  ],
+  "paa_recency_min_max": [
+    0,
+    1594
+  ],
+  "source_value_columns": {
+    "feature.role": true,
+    "feature.first_permit": true,
+    "feature.landmark": true,
+    "feature.borough": true,
+    "feature.review": true,
+    "feature.building": true,
+    "feature.year_centered": true,
+    "feature.quarter": true,
+    "feature.filing_to_F": true,
+    "feature.approval_to_F": true,
+    "feature.S_filed": true,
+    "feature.S_approved": true,
+    "feature.S_review_diversity": true,
+    "feature.paa_category": true,
+    "feature.paa_recency": true,
+    "feature.paa_90": true,
+    "feature.no_observed_S": true,
+    "feature.mature_2024": true,
+    "outcome.role": true,
+    "outcome.landmark": true,
+    "outcome.observation_end": true,
+    "outcome.duration": true,
+    "outcome.event": true,
+    "outcome.observed_signoff": true,
+    "outcome.s1_loc_issued": true
+  },
+  "root_order_mapping_sha256": "8f57066e909b75a1aece50e15c5d7f56b5b73a6f43dadce94da869fa863b6dd7",
+  "cluster_order_mapping_sha256": "2c437c20d124bf05cd22e0bd1be2d058cc7bd5e378fa7b2e5abe3129a56da3df",
+  "design_columns": {
+    "development": {
+      "M0": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity"
+      ],
+      "M1": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity",
+        "PAA_count_1",
+        "PAA_count_2",
+        "PAA_count_3plus",
+        "PAA_recency_rcs1",
+        "PAA_recency_rcs2",
+        "PAA_final_90_days"
+      ]
+    },
+    "validation_2023": {
+      "M0": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity"
+      ],
+      "M1": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity",
+        "PAA_count_1",
+        "PAA_count_2",
+        "PAA_count_3plus",
+        "PAA_recency_rcs1",
+        "PAA_recency_rcs2",
+        "PAA_final_90_days"
+      ]
+    },
+    "validation_2024": {
+      "M0": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity"
+      ],
+      "M1": [
+        "borough__Bronx",
+        "borough__Brooklyn",
+        "borough__Queens",
+        "borough__Staten Island",
+        "review__Standard Plan Examination",
+        "building__1 Family",
+        "building__2 Family",
+        "building__3 Family",
+        "year_centered",
+        "quarter__1",
+        "quarter__2",
+        "quarter__3",
+        "filing_to_F__rcs1",
+        "filing_to_F__rcs2",
+        "approval_to_F__rcs1",
+        "approval_to_F__rcs2",
+        "I1 dated approval unavailable by landmark",
+        "S_filed",
+        "S_approved",
+        "S_review_diversity",
+        "PAA_count_1",
+        "PAA_count_2",
+        "PAA_count_3plus",
+        "PAA_recency_rcs1",
+        "PAA_recency_rcs2",
+        "PAA_final_90_days"
+      ]
+    }
+  },
+  "design_sha256": {
+    "development": {
+      "M0": "b3bf9266041156b6dab765e546ddc56974b43b2b505f572c6a7546750cd5f0a6",
+      "M1": "305094179238a7c48116b4f37090b0c83c126e1c73b3d79b4d1c15eeee615cd8"
+    },
+    "validation_2023": {
+      "M0": "56a30861dec1145a6649dd59b1acb6605dff20de098d38a7684c044ac440ae36",
+      "M1": "fff82bbb07f30c2f2b05ed6eda10f0151f31fd78beb09c64d5e96c09042aac29"
+    },
+    "validation_2024": {
+      "M0": "12ffd36b5cb48c0871ec93d79d1a4fc4a74f12e86bbc376f261c0d0950a3c031",
+      "M1": "6618d864999a234bdc8e40a25cc698aa7e90757b38b7ecb44bba2336091d30c5"
+    }
+  },
+  "accepted_design_parity": {
+    "development": true,
+    "validation_2023": true,
+    "validation_2024": true
+  },
+  "preprocessing_maps_exact_except_opaque_roots": true,
+  "shared_M0_bytes": true,
+  "bootstrap_weight_parity": {
+    "validation_2023": {
+      "all_500_equal": true,
+      "weight_stream_sha256": "a592e776464165ee8e0cd9f22b252311d8eefd9e956264beeef75191de5b39d8"
+    },
+    "full_2024": {
+      "all_500_equal": true,
+      "weight_stream_sha256": "09d6a066d5c44de269ddb9c54e57995d0161af872fe6b61ad2aa08556c8bb359"
+    },
+    "mature_2024": {
+      "all_500_equal": true,
+      "weight_stream_sha256": "ca8d59a31c0c0cd0b3eeb2a6f8bae5b7fce49a88fd95cb8cae0d1d21f91f9b7d"
+    }
+  },
+  "queue_tie_parity": {
+    "validation_2023": {
+      "order_equal": true,
+      "selection_equal": true,
+      "selected": 6744
+    },
+    "full_2024": {
+      "order_equal": true,
+      "selection_equal": true,
+      "selected": 6875
+    },
+    "mature_2024": {
+      "order_equal": true,
+      "selection_equal": true,
+      "selected": 4960
+    }
+  }
+}

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="428.039388pt" height="372.288331pt" viewBox="0 0 428.039388 372.288331" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 372.288331 
+L 428.039388 372.288331 
+L 428.039388 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.79216 71.300438 
+L 168.63984 71.300438 
+Q 175.87152 71.300438 175.87152 68.556411 
+L 175.87152 26.176435 
+Q 175.87152 23.432408 168.63984 23.432408 
+L 20.79216 23.432408 
+Q 13.56048 23.432408 13.56048 26.176435 
+L 13.56048 68.556411 
+Q 13.56048 71.300438 20.79216 71.300438 
+z
+" clip-path="url(#p69a5a7e807)" style="fill: #ffffff; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 28.82736 66.269722 
+L 64.18224 66.269722 
+Q 68.19984 66.269722 68.19984 64.745262 
+L 68.19984 43.70772 
+Q 68.19984 42.183261 64.18224 42.183261 
+L 28.82736 42.183261 
+Q 24.80976 42.183261 24.80976 43.70772 
+L 24.80976 64.745262 
+Q 24.80976 66.269722 28.82736 66.269722 
+z
+" clip-path="url(#p69a5a7e807)" style="fill: #f7f7f7; stroke: #777777; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 81.05616 66.269722 
+L 112.39344 66.269722 
+Q 116.41104 66.269722 116.41104 64.745262 
+L 116.41104 43.70772 
+Q 116.41104 42.183261 112.39344 42.183261 
+L 81.05616 42.183261 
+Q 77.03856 42.183261 77.03856 43.70772 
+L 77.03856 64.745262 
+Q 77.03856 66.269722 81.05616 66.269722 
+z
+" clip-path="url(#p69a5a7e807)" style="fill: #f7f7f7; stroke: #777777; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 131.27616 66.269722 
+L 162.61344 66.269722 
+Q 166.63104 66.269722 166.63104 64.745262 
+L 166.63104 43.70772 
+Q 166.63104 42.183261 162.61344 42.183261 
+L 131.27616 42.183261 
+Q 127.25856 42.183261 127.25856 43.70772 
+L 127.25856 64.745262 
+Q 127.25856 66.269722 131.27616 66.269722 
+z
+" clip-path="url(#p69a5a7e807)" style="fill: #f7f7f7; stroke: #777777; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 28.4256 115.967104 
+L 385.992 115.967104 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #333333; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 36.4608 122.064942 
+L 36.4608 109.869266 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #777777; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 128.8656 122.064942 
+L 128.8656 109.869266 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #0072b2; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 277.5168 122.064942 
+L 277.5168 109.869266 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #0072b2; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 369.9216 122.064942 
+L 369.9216 109.869266 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #333333; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 84.672 105.295887 
+L 275.508 105.295887 
+" clip-path="url(#p69a5a7e807)" style="fill: none; stroke: #d55e00; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="4.32" y="11.711813" transform="rotate(-0 4.32 11.711813)">A. Root and landmark construction</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="24.408" y="32.570811" transform="rotate(-0 24.408 32.570811)">Alteration application root</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(42.877308 51.790763)">I1</text>
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(26.437706 61.161751)">initial filing</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(93.823214 51.790763)">S</text>
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(82.706925 61.161751)">filing(s)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(138.560855 51.790763)">PAA</text>
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(129.54412 61.161751)">record(s)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.1px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #777777" x="94.716" y="78.425764" transform="rotate(-0 94.716 78.425764)">Grouped identifiers; no parent edge is inferred</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="36.4608" y="132.88565" transform="rotate(-0 36.4608 132.88565)">I1 filing</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(126.361397 132.88565)">F</text>
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(98.403241 141.718075)">earliest non-PAA</text>
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(111.323366 150.5505)">I/S permit</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(275.236816 132.88565)">L</text>
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(241.962753 141.718075)">day-365 checkpoint</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(343.258147 132.88565)">Later recorded</text>
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(353.356319 141.718075)">I1 signoff</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #333333" x="201.1824" y="101.307698" transform="rotate(-0 201.1824 101.307698)">Qualifying approved PAA history through L</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.8px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d55e00" x="100.7424" y="111.299685" transform="rotate(-0 100.7424 111.299685)">pre-F approval</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 133.991916 92.337981 
+Q 203.191962 92.337981 272.392009 92.337981 
+" style="fill: none; stroke: #333333; stroke-linecap: round"/>
+    <path d="M 137.671916 94.177981 
+L 133.991916 92.337981 
+L 137.671916 90.497981 
+" style="fill: none; stroke: #333333; stroke-linecap: round"/>
+    <path d="M 268.712009 90.497981 
+L 272.392009 92.337981 
+L 268.712009 94.177981 
+" style="fill: none; stroke: #333333; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.7px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="203.1912" y="85.502014" transform="rotate(-0 203.1912 85.502014)">365 calendar days</text>
+   </g>
+   <g id="text_14">
+    <text style="font-style: italic; font-size: 7.8px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #777777" x="390.0096" y="153.984553" transform="rotate(-0 390.0096 153.984553)">Schematic</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m5ec50cd602" d="M -0 3.872983 
+L 3.872983 0 
+L 0 -3.872983 
+L -3.872983 -0 
+z
+" style="stroke: #ffffff; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#p69a5a7e807)">
+     <use xlink:href="#m5ec50cd602" x="100.7424" y="115.967104" style="fill: #d55e00; stroke: #ffffff; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p69a5a7e807)">
+     <use xlink:href="#m5ec50cd602" x="201.1824" y="115.967104" style="fill: #d55e00; stroke: #ffffff; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p69a5a7e807)">
+     <use xlink:href="#m5ec50cd602" x="245.376" y="115.967104" style="fill: #d55e00; stroke: #ffffff; stroke-width: 0.5"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 4.32 337.875393 
+L 406.08 337.875393 
+L 406.08 211.941776 
+L 4.32 211.941776 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 16.312836 245.774688 
+L 256.169552 245.774688 
+L 256.169552 232.993366 
+L 16.312836 232.993366 
+z
+" clip-path="url(#p5288ca0144)" style="fill: #0072b2; opacity: 0.9"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 256.169552 279.6076 
+L 296.145672 279.6076 
+L 296.145672 266.826278 
+L 256.169552 266.826278 
+z
+" clip-path="url(#p5288ca0144)" style="fill: #0072b2; opacity: 0.72"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 296.145672 313.440512 
+L 336.121791 313.440512 
+L 336.121791 300.65919 
+L 296.145672 300.65919 
+z
+" clip-path="url(#p5288ca0144)" style="fill: #0072b2; opacity: 0.52"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="mae12a228c7" d="M 0 0 
+L 0 3 
+" style="stroke: #000000; stroke-width: 0.7"/>
+      </defs>
+      <g>
+       <use xlink:href="#mae12a228c7" x="16.312836" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="16.312836" y="350.607706" transform="rotate(-0 16.312836 350.607706)">2017</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mae12a228c7" x="56.288955" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="56.288955" y="350.607706" transform="rotate(-0 56.288955 350.607706)">2018</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mae12a228c7" x="96.265075" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="96.265075" y="350.607706" transform="rotate(-0 96.265075 350.607706)">2019</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mae12a228c7" x="136.241194" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="136.241194" y="350.607706" transform="rotate(-0 136.241194 350.607706)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mae12a228c7" x="176.217313" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="176.217313" y="350.607706" transform="rotate(-0 176.217313 350.607706)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mae12a228c7" x="216.193433" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="216.193433" y="350.607706" transform="rotate(-0 216.193433 350.607706)">2022</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mae12a228c7" x="256.169552" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="256.169552" y="350.607706" transform="rotate(-0 256.169552 350.607706)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mae12a228c7" x="296.145672" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="296.145672" y="350.607706" transform="rotate(-0 296.145672 350.607706)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mae12a228c7" x="336.121791" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="336.121791" y="350.607706" transform="rotate(-0 336.121791 350.607706)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mae12a228c7" x="376.09791" y="337.875393" style="stroke: #000000; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 8.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="376.09791" y="350.607706" transform="rotate(-0 376.09791 350.607706)">2026</text>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 9.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="205.2" y="366.059331" transform="rotate(-0 205.2 366.059331)">Calendar year of first permit and later information windows</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_17">
+    <path d="M 296.145672 268.611904 
+L 296.145672 220.75713 
+" clip-path="url(#p5288ca0144)" style="fill: none; stroke-dasharray: 2.7,1.8; stroke-dashoffset: 0; stroke: #777777; stroke-width: 0.9"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 404.026432 329.06004 
+L 404.026432 220.75713 
+" clip-path="url(#p5288ca0144)" style="fill: none; stroke-dasharray: 2.7,1.8; stroke-dashoffset: 0; stroke: #777777; stroke-width: 0.9"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 4.32 337.875393 
+L 406.08 337.875393 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="4.32" y="206.047268" transform="rotate(-0 4.32 206.047268)">B. Temporal evaluation</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="136.241194" y="241.504496" transform="rotate(-0 136.241194 241.504496)">Development first permits: 2017-2022</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8.3px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="291.348537" y="263.224422" transform="rotate(-0 291.348537 263.224422)">2023 validation (primary)</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.9px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #777777" x="276.157612" y="288.715923" transform="rotate(-0 276.157612 288.715923)">365-day assessment</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8.3px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="316.133731" y="296.305491" transform="rotate(-0 316.133731 296.305491)">Full 2024 validation</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7.9px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #777777" x="316.133731" y="321.796992" transform="rotate(-0 316.133731 321.796992)">180-day assessment</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.9px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #777777" x="316.133731" y="329.392489" transform="rotate(-0 316.133731 329.392489)">Mature-2024 subset: F &lt;= 12 Sep 2024; 365-day assessment</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #777777" transform="translate(157.023104 221.960456)">Development outcome-information cutoff</text>
+    <text style="font-size: 7.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #777777" transform="translate(250.651542 230.146606)">31 Dec 2023</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 7.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #777777" transform="translate(329.751961 221.960456)">Archived source state</text>
+    <text style="font-size: 7.6px; font-family: 'Liberation Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #777777" transform="translate(359.724461 230.146606)">12 Sep 2026</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p69a5a7e807">
+   <rect x="4.32" y="10.779393" width="401.76" height="152.445957"/>
+  </clipPath>
+  <clipPath id="p5288ca0144">
+   <rect x="4.32" y="211.941776" width="401.76" height="125.933617"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,131 @@
+{
+  "schema_version": "analysis-ready-19-v1",
+  "columns": [
+    {
+      "name": "root_id",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "cluster_id",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "tie_order",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "first_permit",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "borough",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "review",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "building",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "filing_to_F",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "approval_to_F",
+      "type": "Int64",
+      "nullable": true
+    },
+    {
+      "name": "S_filed",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "S_approved",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "S_review_diversity",
+      "type": "Int64",
+      "nullable": true
+    },
+    {
+      "name": "paa_category",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "paa_recency",
+      "type": "Int64",
+      "nullable": true
+    },
+    {
+      "name": "no_observed_S",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "duration",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "event",
+      "type": "Int64",
+      "nullable": false
+    },
+    {
+      "name": "s1_loc_issued",
+      "type": "Int64",
+      "nullable": true
+    }
+  ],
+  "predictor_columns": [
+    "role",
+    "first_permit",
+    "borough",
+    "review",
+    "building",
+    "filing_to_F",
+    "approval_to_F",
+    "S_filed",
+    "S_approved",
+    "S_review_diversity",
+    "paa_category",
+    "paa_recency",
+    "no_observed_S"
+  ],
+  "outcome_only_columns": [
+    "duration",
+    "event",
+    "s1_loc_issued"
+  ],
+  "identifier_columns": [
+    "root_id",
+    "cluster_id",
+    "tie_order"
+  ],
+  "notes": {
+    "paa_category": "0, 1, 2, or 3 where 3 means 3+",
+    "approval_to_F": "signed days; negative values are valid",
+    "paa_recency": "missing only for category 0; values above 365 are valid",
+    "s1_loc_issued": "missing in development; binary in validation"
+  }
+}

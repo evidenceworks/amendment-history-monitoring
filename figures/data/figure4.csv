@@ -1,0 +1,7 @@
+population,loss,contrast,estimate,percentile_2_5,percentile_97_5,finite_replicates,requested_replicates,orientation,contrast_label,assessment_id,metric_label
+2023,IBS_0_365,M_any - M_base,-0.0021067881251242,-0.0024585180142722,-0.0017259799204085,500,500,first model loss minus second model loss; negative favors first,Any approved amendment vs baseline,2023_primary,IBS 0-365
+2023,IBS_0_365,M_count - M_any,-7.201672394535619e-05,-0.0001667797231576,2.992517243708413e-05,500,500,first model loss minus second model loss; negative favors first,Amendment count vs any amendment,2023_primary,IBS 0-365
+2023,IBS_0_365,M_history - M_count,-0.0013938015941024,-0.0017501360175891,-0.0010397154830576,500,500,first model loss minus second model loss; negative favors first,Count + timing history vs count,2023_primary,IBS 0-365
+full_2024,Brier_180,M_any - M_base,-0.0042315834286901,-0.0047617715551482,-0.0037259965204614,500,500,first model loss minus second model loss; negative favors first,Any approved amendment vs baseline,full_2024_corroboration,Brier score at day 180
+full_2024,Brier_180,M_count - M_any,-0.0001798116465334,-0.0003080512553119,-6.188277999325532e-05,500,500,first model loss minus second model loss; negative favors first,Amendment count vs any amendment,full_2024_corroboration,Brier score at day 180
+full_2024,Brier_180,M_history - M_count,-0.0011514639312401,-0.0015816557336443,-0.0006755365113026,500,500,first model loss minus second model loss; negative favors first,Count + timing history vs count,full_2024_corroboration,Brier score at day 180

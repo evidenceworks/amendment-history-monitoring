@@ -1,0 +1,52 @@
+{
+  "source_sha256": "f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418",
+  "source_rows": 956139,
+  "source_bytes": 827461297,
+  "cutoff": "2026-09-12",
+  "development_cutoff": "2023-12-31",
+  "landmark_days": 365,
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "validation_years": [
+    2023,
+    2024
+  ],
+  "mature2024_first_permit_max": "2024-09-12",
+  "bootstrap_replicates": 500,
+  "bootstrap_seed": 20260916,
+  "bootstrap_generator": "numpy PCG64; sorted BINs; paired draws; no development refit",
+  "queue_tie": "SHA-256 of the fixed hexadecimal tie seed plus root, then copy index",
+  "queue_tie_seed_hex": "414c31412d7469657c",
+  "horizons": [
+    180,
+    365
+  ],
+  "IBS_daily_grid": [
+    0,
+    365
+  ],
+  "margin_IBS": 0.002,
+  "workload_fraction": 0.2,
+  "workload_benchmark": 5,
+  "missing_drop_gt": 0.4,
+  "indicator_missing_ge": 0.01,
+  "rare_level_lt": 0.005,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "quantile_method": "linear",
+  "rank_tolerance": 1e-10,
+  "reproduction_abs_tolerance": 1e-10,
+  "cox_implementation": "R survival::coxph, Efron ties, unpenalized; survival::basehaz centered=FALSE",
+  "PH_diagnostic": "survival::cox.zph default KM transform after predictions retained; no model change",
+  "locale": "Identifiers uppercase and whitespace-trimmed/collapsed; chronology NYC local calendar dates",
+  "queue_tie_note": "Fixed deterministic tie key retained from the accepted analysis; changing it would change queue ordering."
+}

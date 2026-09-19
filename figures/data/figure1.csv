@@ -1,0 +1,12 @@
+panel,element_id,semantic_value,unit_or_type,interpretation
+A,root_grouping,Alteration application root,normalized terminal I/S/P filing identifiers,administrative grouping; no parent-specific amendment edge is inferred
+A,F,earliest qualifying observed non-PAA I/S permit,event date,time origin
+A,L,F + 365,calendar days,fixed landmark
+A,paa_history,recorded filing date <= recorded approval date <= L,recorded dates,approved PAA history can include approvals before F
+A,endpoint,later recorded I1 signoff,recorded event,not physical completion
+B,development,2017-2022,first-permit cohort years,model development
+B,development_outcome_cutoff,2023-12-31,date,development outcome-information cutoff
+B,validation_2023,2023,first-permit cohort year,primary temporal evaluation; IBS 0-365
+B,validation_full_2024,2024,first-permit cohort year,corroborative temporal evaluation; Brier at day 180
+B,mature_2024_rule,F <= 2024-09-12,date rule,subset of full 2024; 365-day assessment
+B,archived_source_cutoff,2026-09-12,date,archived source state

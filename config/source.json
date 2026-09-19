@@ -1,0 +1,24 @@
+{
+  "file": "raw/build_archive_v3408.csv",
+  "url": "https://data.cityofnewyork.us/api/archival.csv?id=w9ak-ipjd&version=3408&method=export",
+  "resolved_url": "https://data.cityofnewyork.us/api/archival.csv?id=w9ak-ipjd&version=3408&method=export",
+  "started_utc": "2026-09-14T19:35:12.434900+00:00",
+  "completed_utc": "2026-09-14T19:40:37.677104+00:00",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Mon, 14 Sep 2026 19:35:14 GMT",
+    "Content-Type": "text/csv; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Disposition": "attachment; filename=\"w9ak-ipjd_version_3408.csv\"",
+    "Vary": "Accept-Encoding",
+    "X-Socrata-Region": "aws-us-east-1-fedramp-prod",
+    "X-Socrata-RequestId": "8ad15e734dfc5a91bd223eb4cff9d37e",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  },
+  "error": null,
+  "bytes": 827461297,
+  "sha256": "f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418"
+}
