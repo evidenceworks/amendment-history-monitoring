@@ -15,3 +15,5 @@ python scripts/check_source.py /path/to/source.csv
 ```
 
 A current live export is not numerically interchangeable with the archived revision and is rejected unless its bytes, row count, and SHA-256 are identical. The repository never searches user directories for a source file.
+
+For the complete raw-source reproduction after acquiring and verifying this exact archive, see [`../full-audit.md`](../full-audit.md).

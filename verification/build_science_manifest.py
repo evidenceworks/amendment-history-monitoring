@@ -10,7 +10,7 @@ PREFIXES = (
     "notebooks/", "results/reference/", "scripts/", "source/", "src/",
 )
 EXPLICIT = {
-    "advanced.md", "source.md", "requirements.txt",
+    "full-audit.md", "source.md", "requirements.txt",
     "reproduce.py", "verification/compare_results.py",
     "verification/verify_science.py",
     "verification/build_science_manifest.py",
