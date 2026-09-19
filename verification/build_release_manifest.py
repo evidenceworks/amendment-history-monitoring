@@ -9,8 +9,8 @@ import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "verification/release_manifest.csv"
-MUTABLE_FILES = {"README.md", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
-MUTABLE_PREFIXES = (".github/",)
+MUTABLE_FILES = {"README.md", "LICENSE", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
+MUTABLE_PREFIXES = (".github/", "LICENSES/")
 
 
 def is_mutable_public_path(rel):

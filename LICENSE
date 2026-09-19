@@ -1,0 +1,8 @@
+# Licensing
+
+This repository contains original project software, original project documentation and outputs, and source-derived material.
+
+- **Original source code** is licensed under the MIT License. See `LICENSES/MIT.txt`.
+- **Original documentation, figures and aggregate project outputs** for which the authors hold the relevant rights are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSES/CC-BY-4.0.txt`.
+- **NYC DOB source data and source-derived records** remain subject to the applicable source terms and are not relicensed by this repository. See `source.md` and `LICENSES/third_party.md`.
+- **Other third-party material**, if any, remains subject to the rights, licenses and terms stated by its source. See `LICENSES/third_party.md`.

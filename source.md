@@ -6,4 +6,4 @@ The source is NYC Department of Buildings / NYC Open Data, **DOB NOW: Build – 
 
 The [NYC Open Data Technical Standards Manual](https://opendata.cityofnewyork.us/wp-content/uploads/NYC_OpenData_TechnicalStandardsManual.pdf) states that published datasets are public resources available without restriction or licensing requirements. This repository nevertheless preserves the provider, dataset ID, archival revision, source identity and transformation attribution. It does not claim ownership of or apply the repository's MIT or CC BY licenses to the NYC source or source-derived records. Users remain responsible for applicable provider notices and access conditions.
 
-Author-created code is licensed under MIT. Author-created documentation, original figures and aggregate outputs are licensed under CC BY 4.0. See `licenses/`.
+Author-created code is licensed under MIT. Author-created documentation, original figures and aggregate outputs are licensed under CC BY 4.0. See `LICENSES/`.

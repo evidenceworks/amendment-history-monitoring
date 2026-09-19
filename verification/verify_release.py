@@ -5,8 +5,8 @@ import hashlib
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-MUTABLE_FILES = {"README.md", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
-MUTABLE_PREFIXES = (".github/",)
+MUTABLE_FILES = {"README.md", "LICENSE", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
+MUTABLE_PREFIXES = (".github/", "LICENSES/")
 
 
 def is_mutable_public_path(path):

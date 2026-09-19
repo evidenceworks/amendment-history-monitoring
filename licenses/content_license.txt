@@ -1,3 +1,0 @@
-Author-created documentation, original figures, and original aggregate outputs in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), except where another notice applies.
-
-License terms: https://creativecommons.org/licenses/by/4.0/

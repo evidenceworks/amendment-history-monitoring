@@ -37,6 +37,6 @@ The Core runner compares newly computed quantities only after the four fits and 
 
 The repository includes code, the compact minimized derivative, authentic retained primary replicate arrays, aggregate scientific references and accepted figures. It excludes the 827 MB raw CSV, fixed predictions, serialized models, fitted design matrices, submission Office files and unpublished review material.
 
-Author-created code is MIT licensed. Author-created documentation, original figures and aggregate outputs are CC BY 4.0. Those licenses do not relicense the NYC source or minimized source-derived records; see `source.md` and `licenses/`.
+Licensing is summarized in the root `LICENSE` file. Original code is MIT licensed; original documentation, figures and aggregate outputs are CC BY 4.0. These licenses do not relicense the NYC source or minimized source-derived records; see `source.md` and `LICENSES/`.
 
 The analysis is retrospective, same-city and predictive rather than causal. Recorded signoff is an administrative milestone, not physical completion, intervention benefit or deployment readiness.
