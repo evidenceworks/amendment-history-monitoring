@@ -1,28 +1,34 @@
 # Amendment history as lifecycle monitoring information
 
-Code, minimized derived data, aggregate results and figures for the study of whether dated regulatory amendment history adds monitoring information at a fixed lifecycle checkpoint.
+This repository contains the code, compact analysis data, figures and reference outputs for a study of whether dated regulatory amendment history adds useful monitoring information at a fixed lifecycle checkpoint.
 
-The repository has two normal reviewer routes and one optional source-level route:
+## Reproduce or inspect the study
 
-| Route | Starting point | What it does | Intended use |
-|---|---|---|---|
-| **Quick check** | Packaged repository | Verifies package integrity, compact-data identity, headline accepted results and Figures 1–4. No model fitting and no R required. | Fast inspection |
-| **Core reproduction** | `data/analysis.csv.gz` | Freshly learns development-only preprocessing, fits M0, M_any, M_count and M1, recomputes the principal point results and generates 500 fresh paired evaluation-BIN loss resamples. | Normal computational reproduction |
-| **Full source audit** | Exact raw revision 3408 CSV | Reconstructs the source-to-analysis pipeline, reruns the primary analysis and S1–S6, reproduces the representation audit and runs the strict comparator. | Optional source-level audit |
+For most readers, the two Colab notebooks are enough.
 
-Direct Colab launchers: [Quick check](https://colab.research.google.com/github/evidenceworks/amendment-history-monitoring/blob/main/notebooks/quick_check.ipynb) · [Core reproduction](https://colab.research.google.com/github/evidenceworks/amendment-history-monitoring/blob/main/notebooks/core_reproduction.ipynb)
+**Quick check** — [open in Colab](https://colab.research.google.com/github/evidenceworks/amendment-history-monitoring/blob/main/notebooks/quick_check.ipynb)
 
-The Quick and Core notebooks are the normal reviewer path. The **Full source audit** is a local command-line route for readers who have the exact archived raw CSV; it is not a third notebook and has no short runtime claim. See [`full-audit.md`](full-audit.md) for prerequisites, exact commands, the S1–S6 scope and the expected output tree.
+Checks the repository, compact data, headline reference results and Figures 1–4. It does not fit models and does not require R.
 
-## Compact object
+**Core reproduction** — [open in Colab](https://colab.research.google.com/github/evidenceworks/amendment-history-monitoring/blob/main/notebooks/core_reproduction.ipynb)
 
-`data/analysis.csv.gz` is a deterministic 19-column, pre-model derivative with 198,284 physical rows: 131,311 development, 33,126 validation-2023 and 33,847 validation-2024. The 24,431 mature-2024 roots are a nested subset. It contains no fitted matrix, coefficients, serialized model or fixed prediction authority. Types and provenance are in the adjacent schema and provenance files.
+Starts from `data/analysis.csv.gz`, rebuilds the development-only preprocessing, fits M0, M_any, M_count and M1, recomputes the main point results and draws 500 paired evaluation-BIN loss resamples.
 
-The exact source is NYC DOB NOW: Build – Job Application Filings (`w9ak-ipjd`), archival revision 3408: 956,139 raw rows, 827,461,297 bytes, SHA-256 `f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418`.
+Readers who want to start from the archived NYC source rather than the compact data can use the [full source audit](full-audit.md). That route uses archived revision 3408 and reruns source processing, the primary analysis, S1–S6 and the representation checks, then compares the rebuilt outputs with the packaged reference results.
 
-## Local checks
+## Analysis data
 
-With the exact pinned Python/R toolchain active:
+`data/analysis.csv.gz` is a deterministic 19-column pre-model dataset with 198,284 rows: 131,311 development, 33,126 validation 2023 and 33,847 validation 2024. The 24,431 mature-2024 roots are a nested subset.
+
+The file contains no fitted coefficients, serialized models or fixed predictions. Its schema and provenance are stored alongside it.
+
+The underlying source is NYC DOB NOW: Build – Job Application Filings (`w9ak-ipjd`), archived revision 3408: 956,139 rows, 827,461,297 bytes and SHA-256 `f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418`.
+
+The raw CSV is not included in this repository.
+
+## Run locally
+
+With the pinned Python and R environment active:
 
 ```bash
 python verification/verify_science.py
@@ -31,12 +37,12 @@ python scripts/run_core.py --output /new/empty/core-output --rscript Rscript
 python verification/verify_core.py --output /new/empty/core-output
 ```
 
-The Core runner compares newly computed quantities only after the four fits and uses strict `atol=1e-10, rtol=0` semantics. Core does not claim to rerun every registered sensitivity: M_any is the same binary-any representation used by S5, while the complete S1–S6 rerun belongs to the Full source audit.
+Core fits the four model variants before comparing fresh outputs with the reference results. Comparisons use `atol=1e-10` and `rtol=0`. The complete S1–S6 rerun is part of the [full source audit](full-audit.md).
 
-## Repository boundary
+## Repository contents
 
-The repository includes code, the compact minimized derivative, authentic retained primary replicate arrays, aggregate scientific references and accepted figures. It excludes the 827 MB raw CSV, fixed predictions, serialized models, fitted design matrices, submission Office files and unpublished review material.
+The repository includes the analysis code, compact data, retained primary replicate arrays, reference results and figures. It does not include the 827 MB raw CSV, fixed predictions, serialized models, fitted design matrices, submission files or unpublished review material.
 
-Licensing is summarized in the root `LICENSE` file. Original code is MIT licensed; original documentation, figures and aggregate outputs are CC BY 4.0. These licenses do not relicense the NYC source or minimized source-derived records; see `source.md` and `LICENSES/`.
+Code written for the project is licensed under MIT. Original documentation, figures and aggregate outputs are licensed under CC BY 4.0. NYC source data and source-derived records keep their source terms and are not relicensed here. See [`LICENSE`](LICENSE), [`LICENSES/`](LICENSES/) and [`source.md`](source.md).
 
-The analysis is retrospective, same-city and predictive rather than causal. Recorded signoff is an administrative milestone, not physical completion, intervention benefit or deployment readiness.
+The study is retrospective and predictive within one city. Recorded signoff is treated as an administrative milestone rather than physical completion, intervention benefit or deployment readiness.
