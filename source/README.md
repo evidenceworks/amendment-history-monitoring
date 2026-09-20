@@ -1,12 +1,23 @@
 # Exact source acquisition and verification
 
-The study analyzed NYC DOB NOW: Build – Job Application Filings (`w9ak-ipjd`), archival revision 3408, dated 12 September 2026. The archived CSV contains 956,139 data rows, is 827,461,297 bytes, and has SHA-256:
+NYC DOB NOW: Build – Job Application Filings (`w9ak-ipjd`), archival revision 3408
+
+Dataset page:
+
+`https://data.cityofnewyork.us/d/w9ak-ipjd`
+
+Archived revision 3408:
+
+`https://data.cityofnewyork.us/api/archival.csv?id=w9ak-ipjd&version=3408&method=export`  
+(last retrieved on 14 September 2026)
+
+Data.gov catalog:
+
+`https://catalog.data.gov/dataset/dob-now-build-job-application-filings`
+
+The archived CSV contains 956,139 data rows, is 827,461,297 bytes, and has SHA-256:
 
 `f910c1fde198fedb764ba9d6310d9234af7940f7fcfd3cc8bdf2f03974bec418`
-
-The archival export locator used for the study is:
-
-`https://data.cityofnewyork.us/api/archival.csv?id=w9ak-ipjd&version=3408&method=export`
 
 Before analysis run:
 

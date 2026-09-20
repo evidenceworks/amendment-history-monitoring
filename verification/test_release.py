@@ -74,6 +74,12 @@ def main():
             stream.write("\nTemporary landing-page edit.\n")
         tests["readme_mutable"] = run(readme_changed, [sys.executable, "verification/verify_release.py"])
 
+        source_readme_changed = temporary / "source_readme_changed"
+        shutil.copytree(ROOT, source_readme_changed)
+        with (source_readme_changed / "source" / "README.md").open("a", encoding="utf-8") as stream:
+            stream.write("\nTemporary source-access documentation edit.\n")
+        tests["source_readme_mutable"] = run(source_readme_changed, [sys.executable, "verification/verify_release.py"])
+
         github_metadata = temporary / "github_metadata"
         shutil.copytree(ROOT, github_metadata)
         (github_metadata / ".github").mkdir(exist_ok=True)
@@ -98,6 +104,7 @@ def main():
         and not zero(tests["missing_payload"])
         and not zero(tests["altered_payload"])
         and zero(tests["readme_mutable"])
+        and zero(tests["source_readme_mutable"])
         and zero(tests["github_metadata_mutable"])
     )
     report = {"status": "PASS" if passed else "FAIL", "tests": tests}

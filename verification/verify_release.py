@@ -5,7 +5,7 @@ import hashlib
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-MUTABLE_FILES = {"README.md", "LICENSE", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
+MUTABLE_FILES = {"README.md", "source/README.md", "LICENSE", "CITATION.cff", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md"}
 MUTABLE_PREFIXES = (".github/", "LICENSES/")
 
 

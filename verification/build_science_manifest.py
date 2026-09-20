@@ -34,6 +34,8 @@ for path in sorted(ROOT.rglob("*")):
     if not path.is_file() or path == OUT or "__pycache__" in path.parts or path.suffix == ".pyc":
         continue
     rel = path.relative_to(ROOT).as_posix()
+    if rel == "source/README.md":
+        continue
     if rel in EXPLICIT or rel.startswith(PREFIXES):
         rows.append((rel, path.stat().st_size, sha(path)))
 with OUT.open("w", newline="", encoding="utf-8") as stream:
